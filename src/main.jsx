@@ -40,7 +40,7 @@ fetchapi();
       <div>
       <h1>{search}</h1>
       <p>Country:{c.country}</p>
-    <img src="image\location.png" alt="hi" />
+    <img src=".\image\location.png" alt="hi" />
     <p>{w.main}</p>
     <h2>{city.temp}°C</h2>
     <p><span>{city.temp_min}°C </span>|<span>{city.temp_max}°C </span></p>
