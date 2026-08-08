@@ -2,6 +2,7 @@ import { StrictMode ,useState ,useEffect} from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
+import locationImg from '../image/location.png'
 
 
 function Wather(){
@@ -40,7 +41,7 @@ fetchapi();
       <div>
       <h1>{search}</h1>
       <p>Country:{c.country}</p>
-    <img src=".\image\location.png" alt="hi" />
+    <img src={locationImg} alt="hi" />
     <p>{w.main}</p>
     <h2>{city.temp}°C</h2>
     <p><span>{city.temp_min}°C </span>|<span>{city.temp_max}°C </span></p>
